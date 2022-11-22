@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.target=Queens2
+comment0.text=\ YOU\ NEED\ TO\ ADD\ YOUR\ CODE\ TO\ THIS\ CLASS,\ REMOVING\ ALL\ DUMMY\ CODE\r\n\r\n\ DO\ NOT\ CHANGE\ THE\ NAME\ OR\ SIGNATURE\ OF\ ANY\ OF\ THE\ EXISTING\ METHODS\r\n\ (Signature\ includes\ parameter\ types,\ return\ types\ and\ being\ static)\r\n\r\n\ You\ can\ add\ private\ methods\ to\ this\ class\ if\ it\ makes\ your\ code\ cleaner,\r\n\ but\ this\ class\ MUST\ work\ with\ the\ UNMODIFIED\ Tester2.java\ class.\r\n\r\n\ This\ is\ the\ ONLY\ class\ that\ you\ can\ submit\ for\ your\ assignment.\r\n\r\n\ MH\ October\ 2020\r\n
+comment1.params=values
+comment1.target=double[]\ rank(java.lang.Integer[])
+comment2.params=rank\ s\ populationSize
+comment2.target=double\ linearRankingProb(double,\ double,\ int)
+comment3.params=population\ s
+comment3.target=java.lang.Integer[][]\ linearRankingSelect(java.lang.Integer[][],\ double)
+comment3.text=\ performs\ linear\ ranking\ parent\ selection\ (see\ class\ slides\ &\ the\ guide\ in\ the\ course\ shell)\r\n\ s\ is\ the\ 'selective\ pressure'\ parameter\ from\ the\ P[i]\ equation\r\n
+comment4.params=children\ n
+comment4.target=java.lang.Integer[][]\ survivorSelection(java.lang.Integer[][],\ int)
+comment4.text=\ creates\ a\ new\ population\ through\ (\u00CE\u00BB,\ \u00CE\u00BC)\ survivor\ selection\r\n\ given\ a\ required\ population\ of\ size\ n,\ and\ a\ set\ of\ children\ of\ size\ 2n,\r\n\ this\ method\ will\ return\ the\ n\ fittest\ children\ as\ the\ new\ population\r\n
+comment5.params=population
+comment5.target=int\ fitnessDiversity(java.lang.Integer[][])
+comment6.params=genotype\ p
+comment6.target=java.lang.Integer[]\ inversionMutate(java.lang.Integer[],\ double)
+comment7.params=population
+comment7.target=java.lang.Integer[]\ getFitnesses(java.lang.Integer[][])
+numComments=8
